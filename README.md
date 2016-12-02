@@ -1,1 +1,1 @@
-# csie_ntnu
+slotted ALOHA
