@@ -253,7 +253,7 @@ window.onload = function init()
     image.onload = function() { 
         configureTexture( image );
     }
-    image.src = "lena_gray.gif";
+    image.src = "SA2011_black.gif";
 
 	// uniform variables in shaders
     modelingLoc   = gl.getUniformLocation(program, "modelingMatrix"); 
