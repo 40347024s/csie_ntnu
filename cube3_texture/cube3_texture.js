@@ -284,7 +284,7 @@ window.onload = function init()
 
     render();
 };
-
+//
 function render() {
 	modeling = mult(rotate(theta[xAxis], 1, 0, 0),
 	                mult(rotate(theta[yAxis], 0, 1, 0),rotate(theta[zAxis], 0, 0, 1)));
