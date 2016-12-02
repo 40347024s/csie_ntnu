@@ -253,7 +253,7 @@ window.onload = function init()
     image.onload = function() { 
         configureTexture( image );
     }
-    image.src = "lena512color.jpg";
+    image.src = "whatever.jpg";
 
 	// uniform variables in shaders
     modelingLoc   = gl.getUniformLocation(program, "modelingMatrix"); 
